@@ -1,0 +1,9 @@
+﻿CREATE TABLE [crm].[Line]
+(
+	[LineId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY CLUSTERED ([LineId]),
+	[DocId] INT NOT NULL REFERENCES [crm].[Doc] ([DocId]),
+	[LineName] NVARCHAR(128) NULL,
+	[Base] NUMERIC(20,2) NULL,
+	[LineTax1Id] INT NULL,
+	[LineTax2Id] INT NULL,
+)

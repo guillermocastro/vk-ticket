@@ -1,0 +1,8 @@
+﻿CREATE TABLE [fis].[LineTax1]
+(
+	[LineTax1Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY CLUSTERED ([LineTax1Id]),
+	[LineTax1Name] NVARCHAR(128) NOT NULL,
+	[PLineTax1] NUMERIC(20,3) NULL,
+	[DebitAcc] NVARCHAR(10) NULL,
+	[CreditAcc] NVARCHAR(10) NULL,
+)

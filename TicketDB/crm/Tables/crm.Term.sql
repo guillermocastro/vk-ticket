@@ -1,0 +1,8 @@
+﻿CREATE TABLE [crm].[Term]
+(
+	[TermId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY CLUSTERED ([TermId]),
+	[TermName] NVARCHAR(128) NOT NULL,
+	[Days] INT NULL,
+	[PaymentDay] VARCHAR(32) NULL,
+	[IsDisabled] BIT NULL,
+)
