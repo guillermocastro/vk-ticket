@@ -112,5 +112,6 @@
     <Build Include="crm\Tables\crm.Payment.sql" />
     <Build Include="crm\Tables\crm.Term.sql" />
     <Build Include="crm\Tables\crm.Line.sql" />
+    <Build Include="crm\Tables\crm.Country.sql" />
   </ItemGroup>
 </Project>

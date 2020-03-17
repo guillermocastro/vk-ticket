@@ -1,0 +1,4 @@
+﻿CREATE TABLE [crm].[Country]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)
